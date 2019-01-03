@@ -1,0 +1,82 @@
+body{
+    box-sizing: border-box;
+    color: white;
+    background: linear-gradient(#414345,transparent 85%),
+    linear-gradient(360deg,#232526,transparent 85%),#414345
+    url("img/background-2\ \(2\).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+em{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.name{
+    font-size: 3em;
+    line-height: 1.2;
+}
+.main-section{
+    width: 100%;
+    height: 100vh;
+    margin-top: 40px;
+    border-bottom: 3px solid orangered;
+}
+.text{
+    margin: 0 auto;
+    width: 90%;
+    font-size: 1.25em;
+    letter-spacing: .18em;
+}
+.contact-info{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-info span{
+    letter-spacing: 0.15em;
+    text-align: center;
+    line-height: 1em;
+}
+.social-links{
+    padding-top: 5px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.social-links a{
+    width: 20%;
+    padding-left: 5px;
+    display: inline-block;
+}
+.social-links a + .social-links a{
+    margin-right: 5px;
+}
+.main-section .aknowledgement{
+    font-size: 0.8em;
+    color: lightsalmon;
+    
+    text-align: left;
+}
+
+@media (min-width:769px){
+    #sign-up{
+        width: 60%;
+    }
+    .text{
+        width: 70%;
+    }
+    .main-section{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-links a{
+        width: 5%;
+        padding-left: 10px;
+        display: inline-block;
+    }
+}
